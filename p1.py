@@ -1,4 +1,5 @@
-from find_max_first_element_podspiski import *
+from finding_sublists_with_the_maximum_first_element import *
+from func2 import *
 import random
 
 def main():
@@ -20,5 +21,7 @@ def main():
     a = int(input())
     if a == 1:
         print(f'{find_max_first_element_podspiski(podspiski)}')
+    elif a == 2:
+        print(f'{find_max_difference(podspiski)}')
 
 main()
