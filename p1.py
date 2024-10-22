@@ -1,3 +1,4 @@
+from find_max_first_element_podspiski import *
 import random
 
 def main():
@@ -14,5 +15,10 @@ def main():
 
     # Выводим подсписки в одной строке
     print(podspiski)
+
+    print('Выберите действие: ')
+    a = int(input())
+    if a == 1:
+        print(f'{find_max_first_element_podspiski(podspiski)}')
 
 main()
